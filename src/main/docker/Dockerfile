@@ -1,6 +1,4 @@
-FROM jbsukraine/xm-dockerfile
+FROM jbsukraine/xm-ms-base-image
 
 # add directly the war
 ADD build/libs/*.war /app.war
-
-EXPOSE 8081
