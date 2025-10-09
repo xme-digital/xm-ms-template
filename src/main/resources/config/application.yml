@@ -212,4 +212,4 @@ application:
   kafkaHealth:
     enabled: true
   config-fetch-all:
-    enabled: true
+    enabled: false
