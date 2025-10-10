@@ -45,6 +45,11 @@ public class IntegrationTestConfiguration {
     }
 
     @Bean
+    public CommonConfigRepository commonConfigRepository() {
+        return mock(CommonConfigRepository.class);
+    }
+
+    @Bean
     public TenantConfigRepository tenantConfigRepository() {
         return mock(TenantConfigRepository.class);
     }
