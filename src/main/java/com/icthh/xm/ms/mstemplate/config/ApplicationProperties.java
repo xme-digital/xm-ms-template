@@ -22,9 +22,15 @@ public class ApplicationProperties {
     private String kafkaSystemQueue;
     private Integer kafkaMetadataMaxAge;
     private KafkaHealth kafkaHealth;
+    private ConfigFetchAll configFetchAll;
 
     @Data
     public static class KafkaHealth {
+        private Boolean enabled;
+    }
+
+    @Data
+    public static class ConfigFetchAll {
         private Boolean enabled;
     }
 }

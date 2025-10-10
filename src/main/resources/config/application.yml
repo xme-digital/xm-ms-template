@@ -211,3 +211,5 @@ application:
   kafka-metadata-max-age: 60000 #in milliseconds
   kafkaHealth:
     enabled: true
+  config-fetch-all:
+    enabled: false
