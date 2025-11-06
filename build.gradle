@@ -272,6 +272,9 @@ dependencies {
 
 
     constraints {
+        implementation("org.apache.commons:commons-compress:${apacheCommonCompress}")
+        implementation("io.github.classgraph:classgraph:${gitClassGraph}")
+
         implementation("io.undertow:undertow-core") {
             version {
                 strictly("${undertowVersion}")
